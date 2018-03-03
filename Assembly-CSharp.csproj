@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Ball.cs" />
+     <Compile Include="Assets\Script\Brick.cs" />
      <Compile Include="Assets\Script\LevelManager.cs" />
      <Compile Include="Assets\Script\LoseCollider.cs" />
      <Compile Include="Assets\Script\MusicPlayer.cs" />

@@ -12,4 +12,8 @@ public class LevelManager : MonoBehaviour {
 	public void ExitRequest(){
 		Application.Quit ();
 	}
+
+	public void LoadNextLevel(){
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex+1);
+	}
 }
